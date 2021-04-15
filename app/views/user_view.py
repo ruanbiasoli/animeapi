@@ -147,3 +147,7 @@ def refresh():
     )
 
     return {"acess_token": acess_token}
+
+@bp.route("/test")
+def test():
+    return {"msg": "hello world"}
