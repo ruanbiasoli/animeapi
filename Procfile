@@ -1,0 +1,1 @@
+web: gunicorn -w 3 'create_app()'
